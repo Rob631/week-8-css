@@ -1,0 +1,160 @@
+body {margin:0;}
+/* Font for all pages */
+body {
+  font-family:Papyrus;
+}
+/* attributes for the nav bar */
+ul {
+    list-style-type: none;
+    margin: 7px;
+    padding: 7px;
+    overflow: hidden;
+    position: fixed;
+    top: 7px;
+    width: 100%;
+}
+/* where the list should be positioned */
+li {
+    float: left;
+}
+/* detalis of the nav bar */
+li a {
+    display: block;
+    color:ghostwhite;
+    text-align: center;
+    padding: 14px, 16px;
+    text-decoration:none;
+}
+/* attributes for images across the website */
+img{
+    padding:20px;
+    margin: top 70px;
+    height:1500;
+}
+img{
+    width: 100%;
+}
+/* attributes for the body */
+body, html{
+    height: 100%;
+    margin: 0;
+}
+/* color it should be when being hovered */
+li a:hover {
+    background-color: rgb(128, 255, 0);
+}
+/* for images on the page */
+#homeimg {
+    opacity:0.5;
+}
+ /* when hovered its opacity */
+#homeimg:hover {
+    opacity: 1.0;
+}
+/* id for background image for the home page */
+#homebodyimg {
+    background-image: url("https://cdn.wallpapersafari.com/9/67/rxDRkP.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* for the table on page 1 */
+table, th, td {
+    background-color: green;
+    border:1px solid rgb(255, 217, 0); 
+} 
+/* for all the images on the website */
+* { 
+    box-sizing: border-box;
+   }
+   .column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+   }
+   .row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+/* heading on page 1 */
+.h1home {
+    text-align: center;
+    color: red;
+    font-size: 65px;
+}
+/* heading on page 1 */
+.h2home{
+    text-align: center;
+    color: green;
+}
+/* heading on page 1 */
+.h3home{
+    text-align: center;
+    color: goldenrod;
+}
+/* for the table on page 1 */
+#table2 {
+    width: 100%;
+}
+/* for the TH on page 1 */
+#table2th{
+    text-align: center;
+    color: whitesmoke;
+}
+/* for the TD on page 1 */
+#table2td{
+    text-align: center;
+    color: whitesmoke;
+}
+/* for the form on page 1 */
+#homeform{
+    text-align: center;
+    color: green;
+}
+
+/* Page 2(Exterior) */
+/* Page 2 backgroud image */
+#p2backimg{
+    background-image: url("https://cdn.wallpapersafari.com/94/22/eHfALG.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* H1 heading on page 2*/
+#h1p2{
+    color: green;
+    font-size: 65px;
+    text-align: center;
+}
+/* for the paragraph on page 2 */
+#para2{
+    color: goldenrod;
+    font-size: small;
+}
+/* Page 3(Interior) */
+#p3backimg{
+    background-image: url("https://cdn.wallpapersafari.com/94/22/eHfALG.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*h1 heading on page 3 */
+#h1int{
+    text-align: center;
+    color: green;
+    font-size: 65px;
+}
+/* for list elements on page 3 */
+#lip3{
+    color: ghostwhite;
+
+}
+/* for the paragraph on page 3 */
+#para{
+    color: yellow;
+    font-size: small;
+}
